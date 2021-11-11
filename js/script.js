@@ -20,4 +20,5 @@ console.log(userPassword);
 
 
 //Output
-document.getElementById('my_password').innerHTML = userPassword;
+// Print Password
+document.getElementById('my_password').innerHTML = 'La tua password è: ' + userPassword;
