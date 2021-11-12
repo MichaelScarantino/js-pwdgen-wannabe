@@ -15,7 +15,7 @@ const userFavouriteColor = prompt('Scrivi il tuo colore preferito');
 
 //Logic
 //User Password
-const userPassword = `${userName}` + `${userSurname}` + `${userFavouriteColor}` + 21 ;
+const userPassword = `${userName}${userSurname}${userFavouriteColor}21` ;
 console.log(userPassword);
 
 
